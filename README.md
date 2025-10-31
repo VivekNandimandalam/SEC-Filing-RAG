@@ -88,5 +88,5 @@ The script will:
 
 ## License
 
-This project is part of the Dexian CodeAIThon.
+This project is Secfiling_Extraction_Vivek.
 

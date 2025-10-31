@@ -1,5 +1,5 @@
 """
-Dexian CodeAIThon - Integrated SEC Filing Extraction Tool
+Secfiling_Extraction_Vivek - SEC Filing Extraction Tool
 Automated extraction of oil & gas metrics from 10-Q and 10-K filings
 with Excel export and PostgreSQL database storage
 """
@@ -313,7 +313,7 @@ class SECFilingFetcher:
     
     BASE_URL = "https://www.sec.gov"
     HEADERS = {
-        'User-Agent': 'Dexian CodeAIThon contact@dexian.com',
+        'User-Agent': 'Secfiling_Extraction_Vivek',
         'Accept-Encoding': 'gzip, deflate',
         'Host': 'www.sec.gov'
     }
@@ -458,7 +458,7 @@ def extract_text_from_url(url: str, output_path: Path) -> bool:
     """Extract text content from SEC filing URL"""
     try:
         headers = {
-            'User-Agent': 'Dexian CodeAIThon contact@dexian.com',
+            'User-Agent': 'Secfiling_Extraction_Vivek',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Encoding': 'gzip, deflate'
         }
@@ -1533,7 +1533,7 @@ def insert_data_to_database(all_data, conn):
 def print_header():
     """Print application header"""
     print("\n" + "="*80)
-    print("DEXIAN CODEAITHON - INTEGRATED SEC FILING EXTRACTION TOOL")
+    print("SECFILING_EXTRACTION_VIVEK - SEC FILING EXTRACTION TOOL")
     print("Automated Oil & Gas Metrics Extraction + Excel + PostgreSQL")
     print("="*80 + "\n")
 
