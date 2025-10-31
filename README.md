@@ -88,5 +88,3 @@ The script will:
 
 ## License
 
-This project is part of the Dexian CodeAIThon.
-
