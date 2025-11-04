@@ -1179,13 +1179,6 @@ Include:
 - Expected vs actual behavior
 - Sample input file (if applicable)
 
----
-
-## License
-
-This project is part of the Dexian CodeAIThon.
-
----
 
 ## Acknowledgments
 
