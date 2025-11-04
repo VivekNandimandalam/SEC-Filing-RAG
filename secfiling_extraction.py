@@ -313,7 +313,7 @@ class SECFilingFetcher:
     
     BASE_URL = "https://www.sec.gov"
     HEADERS = {
-        'User-Agent': 'Secfiling_Extraction_Vivek',
+        'User-Agent': 'Secfiling_Extraction_Vivek contact@example.com',
         'Accept-Encoding': 'gzip, deflate',
         'Host': 'www.sec.gov'
     }
@@ -458,7 +458,7 @@ def extract_text_from_url(url: str, output_path: Path) -> bool:
     """Extract text content from SEC filing URL"""
     try:
         headers = {
-            'User-Agent': 'Secfiling_Extraction_Vivek',
+            'User-Agent': 'Secfiling_Extraction_Vivek contact@example.com',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Encoding': 'gzip, deflate'
         }
